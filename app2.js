@@ -43,6 +43,7 @@ else{
 }
 
 alert("繰り返し処理(while)");
+alert("条件式の中の変数を処理に代入させることをしっかり意識！")
 var max = 100;
 var num = 1;
 var count = 0;
