@@ -27,3 +27,39 @@ var str4 = "!!";
 alert(str2 + str3);
 alert("!!を変数で追加");
 alert(str2 + str3 + str4);
+
+alert("条件分岐");
+var orange = 100;
+var apple = 120;
+
+if(orange < apple){
+	alert("みかんはリンゴより安い");
+}
+else if(orange = apple){
+	alert("みかんとリンゴは同じ値段");
+}
+else{
+	alert("みかんはリンゴより高い");
+}
+
+alert("繰り返し処理(while)");
+var max = 100;
+var num = 1;
+var count = 0;
+
+while(num < max){
+	num = num * 2;
+	count = count + 1;
+}
+
+alert("2を掛け続けて" + max + "を超えるのに必要だった回数は" + count + "回です。" + "(" + num + ")");
+
+alert("繰り返し処理(for)");
+var i;
+var num = 0;
+
+for(i = 1; i < 11; i++){
+	num = num + i;
+}
+
+alert("1から10まで足し算した結果は" + num + "です");
