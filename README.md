@@ -2,4 +2,4 @@
 
 DMM WEBCAMPカリキュラム
 
-* JavaScriptを学ぼう
+* JavaScriptを学ぼう/1章 【JavaScriptの概要を学ぼう】
